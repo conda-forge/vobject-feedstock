@@ -1,6 +1,6 @@
 {% set name = "vobject" %}
-{% set version = "0.9.3" %}
-{% set md5 = "fe5996008d5e4858d63156b37b43d59c" %}
+{% set version = "0.9.4" %}
+{% set sha256 = "10b150b87ee5fffefd3aa1ea12f31aab45a7b7d010d1ce6816afaff8db726520" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: {{ md5 }}
+  sha256: {{ sha256 }}
 
 build:
   number: 0
