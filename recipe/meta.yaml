@@ -1,6 +1,6 @@
 {% set name = "vobject" %}
-{% set version = "0.9.3" %}
-{% set md5 = "fe5996008d5e4858d63156b37b43d59c" %}
+{% set version = "0.9.5" %}
+{% set md5 = "aa629d6ae95db5edfd5b2402eb1073cb" %}
 
 package:
   name: {{ name|lower }}
