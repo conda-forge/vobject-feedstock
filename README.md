@@ -14,14 +14,15 @@ Summary: A full-featured Python package for parsing and creating iCalendar and v
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/vobject-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vobject-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/vobject-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/vobject-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/vobject-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/vobject-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/vobject-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/vobject-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vobject/badges/version.svg)](https://anaconda.org/conda-forge/vobject)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vobject/badges/downloads.svg)](https://anaconda.org/conda-forge/vobject)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-vobject-green.svg)](https://anaconda.org/conda-forge/vobject) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/vobject.svg)](https://anaconda.org/conda-forge/vobject) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/vobject.svg)](https://anaconda.org/conda-forge/vobject) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/vobject.svg)](https://anaconda.org/conda-forge/vobject) |
 
 Installing vobject
 ==================
