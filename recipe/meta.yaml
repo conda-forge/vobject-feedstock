@@ -12,14 +12,16 @@ source:
   md5: {{ md5 }}
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - ics_diff = vobject.ics_diff:main
     - change_tz = vobject.change_tz:main
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
 
