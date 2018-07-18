@@ -1,6 +1,6 @@
 {% set name = "vobject" %}
-{% set version = "0.9.6" %}
-{% set md5 = "1da0747914fe440329c0b37e4be9040d" %}
+{% set version = "0.9.6.1" %}
+{% set md5 = "06357e96a84d55de2a71b36d39f6853e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - ics_diff = vobject.ics_diff:main
